@@ -10,14 +10,14 @@ class Rectangle {
 	get height(){
 return this.height;
 	}
-	getArea():number{
+	getArea(){
 		return this.width*this.height;
 	}
 }
 
 class Square extends Animal {
 	constructor(side){
-		this.side
+		super(side, side);
 	}
 }
 
