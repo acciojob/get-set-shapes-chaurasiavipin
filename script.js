@@ -19,6 +19,9 @@ class Square extends Animal {
 	constructor(side){
 		super(side, side);
 	}
+	getPerimeter(){
+		return 4*this.side;
+	}
 }
 
 // Do not change the code below this line
